@@ -5,7 +5,7 @@ PYTHON ?= python3.12
 VENV_PYTHON := $(VENV)/bin/python
 VLEI_SERVER := $(VENV)/bin/vLEI-server
 
-VERSION=1.0.5
+VERSION=1.0.6
 IMAGE_NAME=gleif/vlei
 LATEST_TAG=$(IMAGE_NAME):latest
 VERSION_TAG=$(IMAGE_NAME):$(VERSION)
