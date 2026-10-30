@@ -9,5 +9,5 @@ def test_release_dependencies_have_exclusive_import_ownership():
     names = {d.metadata["Name"].lower().replace("_", "-") for d in metadata.distributions()}
     assert not {"keri", "hio"} & names
     assert metadata.version("gleif-hio") == hio.__version__ == "0.6.22"
-    assert metadata.version("gleif-keri") == keri.__version__ == "1.2.18"
-    assert metadata.version("vlei") == vlei.__version__ == "1.0.6"
+    assert metadata.version("gleif-keri") == keri.__version__ == "1.2.19"
+    assert metadata.version("vlei") == vlei.__version__ == "1.0.7"
